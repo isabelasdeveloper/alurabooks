@@ -1,7 +1,5 @@
 # 🚀✨ **Bem-vindo ao Projeto AluraBooks!** ✨🚀
-
-![AluraBooks](https://github.com/user-attachments/assets/7ccfcecb-774f-4f23-9461-e7d9768af1b6)
-
+![AluraBooks - Imagens](https://github.com/user-attachments/assets/01d7450f-33b7-4bca-9f70-1f0bea848d4e)
 Este projeto tem como objetivo criar um **site de livros** interativo e responsivo, inspirado na **Alura**, utilizando **SwiperJS** para criar um carrossel de livros. O foco do projeto foi em boas práticas de desenvolvimento web, com estruturação do CSS seguindo a metodologia **BEM** e a abordagem **Mobile First**.
 
 ## 🛠️ Tecnologias Utilizadas
