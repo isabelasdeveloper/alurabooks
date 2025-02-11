@@ -40,5 +40,5 @@ A responsividade foi aplicada usando media queries para adaptar o design a difer
 
 ✨ O projeto está disponível para visualização no Vercel! 🚀 Clique no link abaixo para explorar a aplicação interativa, conferir as funcionalidades e testar a experiência responsiva em diferentes dispositivos. Não deixe de conferir o carrossel de livros e a interface moderna que foi cuidadosamente desenvolvida!
 
-👉 Visite o projeto no Vercel
+👉 [Visite o projeto no Vercel](https://alurabooks-eight-lake.vercel.app/)
 
