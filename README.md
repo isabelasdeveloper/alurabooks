@@ -1,6 +1,6 @@
 # 🚀✨ **Bem-vindo ao Projeto AluraBooks!** ✨🚀
 ![AluraBooks - Imagens](https://github.com/user-attachments/assets/01d7450f-33b7-4bca-9f70-1f0bea848d4e)
-Este projeto tem como objetivo criar um **site de livros** interativo e responsivo, inspirado na **Alura**, utilizando **SwiperJS** para criar um carrossel de livros. O foco do projeto foi em boas práticas de desenvolvimento web, com estruturação do CSS seguindo a metodologia **BEM** e a abordagem **Mobile First**.
+🚀✨ Este projeto tem como objetivo criar um **site de livros** interativo e responsivo, inspirado na **Alura**, utilizando **SwiperJS** para criar um carrossel de livros. O foco do projeto foi em boas práticas de desenvolvimento web, com estruturação do CSS seguindo a metodologia **BEM** e a abordagem **Mobile First**. ✨🚀
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -20,20 +20,18 @@ Este projeto tem como objetivo criar um **site de livros** interativo e responsi
 
 ## 📦 Implementação do Carrossel com SwiperJS
 
-O SwiperJS foi utilizado para criar um carrossel de livros no site. A biblioteca foi configurada para permitir transições suaves entre os slides, proporcionando uma navegação fluida e intuitiva para o usuário. 
+- O SwiperJS foi utilizado para criar um carrossel de livros no site. A biblioteca foi configurada para permitir transições suaves entre os slides, proporcionando uma navegação fluida e intuitiva para o usuário. 
 
-A implementação do Swiper permite navegação infinita, controle por botões e adaptação para dispositivos móveis.
+- A implementação do Swiper permite navegação infinita, controle por botões e adaptação para dispositivos móveis.
 
 ## 📱 Layout Responsivo
 A responsividade foi aplicada usando media queries para adaptar o design a diferentes tamanhos de tela, conforme o layout projetado no Figma:
-
-Mobile: min-width: 428px
-Tablet: min-width: 1024px
-Desktop: min-width: 1728px
-Além disso, foi realizado um ajuste para telas de notebook (1366px de largura), garantindo a adaptação ideal para esta resolução.
+- Mobile: min-width: 428px
+- Tablet: min-width: 1024px
+- Desktop: min-width: 1728px
 
 ## 💻 Agradecimentos
-Agradeço à Alura pelo template do layout no Figma, que serviu como base para o design do projeto. 🙏
+- Agradeço à Alura pelo template do layout no Figma, que serviu como base para o design do projeto. 🙏
 
 ## 🔗 Links Importantes
   - [LinkedIn](https://www.linkedin.com/in/isabelasofiaalves/)
