@@ -14,6 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .topicos-item {
@@ -29,12 +30,13 @@
     font-weight: 700;
 }
 
+.link-startup {
+    display: none;
+}
 
 @media screen and (min-width: 1086px) {
 
 }
-
-
 
 @media screen and (min-width: 1600px) {
 
