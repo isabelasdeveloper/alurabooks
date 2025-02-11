@@ -1,0 +1,173 @@
+.slider-titulo {
+    font-size: 1.125rem;
+    text-align: center;
+    color: var(--titles);
+    font-weight: 700;
+    background-color: var(--white);
+    text-transform: uppercase;
+    padding: 1em 0 1em 0;
+}
+
+.swiper-slide-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    background: var(--white);
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1.5em;
+}
+
+.card-esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.card-esquerda h3 {
+    color: var(--titles);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.card-esquerda h2 {
+    color: var(--text-header);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.card-esquerda h2 strong {
+    color: var(--titles);
+}
+
+.card-esquerda p {
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+.card-esquerda-lista {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.card-direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.card-direita-logo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-direita-ancora {
+    white-space: nowrap;
+    background-color: var(--titles);
+    padding: 1.2em 2.2em;
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.card-esquerda-estrelas {
+    width: 8em;
+}
+
+@media screen and (min-width: 1086px) {
+
+    .slider-titulo {
+        font-size: 1.625rem;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+    
+    .swiper-button-prev {
+        display: block;
+        background-image: url(/assets/Seta-esquerda.png);
+        width: 4em;
+        margin-top: 1em;
+        background-size: 3em;
+        background-repeat: no-repeat;
+    }
+    
+    .swiper-button-next {
+        display: block;
+        background-image: url(/assets/Seta-direita.png);
+        width: 4em;
+        margin-top: 1em;
+        background-size: 3em;
+        background-repeat: no-repeat;
+    }
+
+
+    .swiper-button-next::after,.swiper-button-prev::after {
+        content: none !important;
+    }
+
+    .card {
+        display: flex;
+        gap: 2em;
+        background: var(--white);
+        box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin: 3em auto;
+        padding: 1.5em;
+        align-items: center;
+        width: 50%;
+    }
+
+    .container-swiper {
+        align-items: center;
+    }
+    
+}
+
+@media screen and (min-width: 1600px) {
+
+    .swiper {
+       width: 60%;
+    }
+
+    .container-swiper {
+        display: flex;
+        padding: 0 10vw 4.5em 10vw;
+        align-items: center;
+    }
+
+    .card {
+        margin-top: 7em;
+        margin-left: 5em;
+        width: 60%;
+        height: 15%;
+        
+    }
+
+}
